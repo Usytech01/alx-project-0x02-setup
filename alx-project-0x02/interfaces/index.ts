@@ -7,8 +7,8 @@ export interface CardProp{
 
 export interface ButtonProps{
     label:string;
-    size?: "small" | "medium" | "larg";
-    shape?: "rounded-sm" | "rounded-md" |"rounded-lg";
+    size?: ["small", "medium", "larg"];
+    shape?: ["rounded-sm", "rounded-md", "rounded-lg"];
     onClick?: () => void;
 }
 
