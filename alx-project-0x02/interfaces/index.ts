@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Key } from 'react'
 
 export interface CardProp{
     title: string;
@@ -10,6 +10,13 @@ export interface ButtonProps{
     size?: "small" | "medium" | "larg";
     shape?: "rounded-sm" | "rounded-md" |"rounded-lg";
     onClick?: () => void;
+}
+
+export interface PostProps{
+    id: Key | null | undefined;
+    userId: Number;
+    title: string;
+    content: string;
 }
 
 
