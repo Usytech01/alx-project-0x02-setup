@@ -5,4 +5,11 @@ export interface CardProp{
     content: string;
 }
 
+export interface ButtonProps{
+    label:string;
+    size?: "small" | "medium" | "larg";
+    shape?: "rounded-sm" | "rounded-md" |"rounded-lg";
+    onClick?: () => void;
+}
+
 
