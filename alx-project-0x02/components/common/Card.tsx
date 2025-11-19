@@ -1,11 +1,13 @@
-import React from "react";
-import { CardProp } from "@/interfaces";
+import { CardProps } from "@/interfaces";
 
-export default function({title,content}: CardProp){
+
+const Card: React.FC <CardProps>= ({ title, content }) => {
     return(
-        <div>
-            <h2>{title}</h2>
-            <p>{content}</p>
+        <div className="border rounded-lg p-4 shadow-md bg-white">
+            <h2 className="text-xl font-semibold mb-2">{title}</h2>
+            <p className="text-gray-700">{content}</p>
         </div>
-    );
+    )
 }
+
+export default Card;
