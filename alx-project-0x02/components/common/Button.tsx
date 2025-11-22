@@ -1,5 +1,5 @@
 import React from "react";
-import  { type ButtonProps } from "@/interfaces";
+import  { ButtonProps } from "@/interfaces";
 
 export default function Button({
   label,
