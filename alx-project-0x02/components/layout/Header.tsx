@@ -8,7 +8,7 @@ export default function Header(){
             <nav className="flex gap-4">
                 <Link href="/home" className="hover:underline text-blue-600">Home</Link>
                 <Link href="/home" className="hover:underline text-blue-600">About</Link>
-                <Link href="/home" className="hover:underline text-blue-600">posts</Link>
+                <Link href="/home" className="hover:underline text-blue-600">"/posts"</Link>
             </nav>
         </header>
     );
